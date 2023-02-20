@@ -11,6 +11,7 @@
 .container{
     width: 100%;
     max-width: 1440px;
+    padding-left: 40px;
 }
 
 .header-wrapper{
@@ -189,4 +190,143 @@ input{
 
 .send:hover{
     color: black;
+}
+
+.footer-wrapper{
+    padding-top: 200px; 
+    padding-left: 182px;
+    width: 1000px;
+    height: 200px;
+    
+}
+
+.footer-titels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.documents-titel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+.documents-subtitel{
+    display: flex;
+    flex-direction: column;
+}
+
+.doc-nav{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: color 0.3s linear;
+}
+
+.footer-adress{
+    padding-left: 250px;
+}
+
+.footer-adress-titel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+.footer-adress-subtitel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.adr-nav{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s linear;
+}
+
+.footer-contacts{
+    padding-left: 70px;
+}
+
+.footer-contacts-titel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+.footer-contacts-subtitel{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cnt-nav{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s linear;
+}
+
+.doc-nav:hover{
+    color:rgb(187, 31, 31);
+}
+
+.adr-nav:hover{
+    color:rgb(187, 31, 31);
+}
+
+.cnt-nav:hover{
+    color:rgb(187, 31, 31);
+}
+
+hr{
+    width: 1400px;
+    height: 1px;
+    left: 80px;
+    top: 301px; 
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.footer-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.footer-end-left{
+    padding-left: 220px;
+}
+
+.footer-end-right{
+    display: flex;
+    align-items: center;
+    padding-right: 160px;
+}
+
+.footer-end-right-titel{
+    padding-right: 51px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-img{
+    padding-right: 15px;
 }
