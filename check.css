@@ -74,275 +74,208 @@ button{
     cursor: pointer;
 }
 
-.main-wrapper{
+.check-wrapper{
+    padding-top: 125px;
+    padding-left: 132px;
+}
+.checkbox-wrapper{
+    margin-top: 44px;
+    width: 1147px;
+    height: 361px;
+    background-color: #E5E5E5;
     display: flex;
-    padding: 64px 50px;
+    justify-content: space-between;
+    border-radius: 8px;
 }
 
-.main-left{
-    width: 920px;
-    height: 490px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-    margin-left: 40px;
-}
-
-.img1{
-    padding-bottom: 15px;
-}
-
-.img3{
-    padding-left: 6px;
-}
-
-.main-titel{
+.form-fld{
+    width: 742px;
+    height: 72px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 60px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 0.8);
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding-left: 8px;
 }
 
-.main-button{
-    text-align: center;
-    width: 192px;
-    padding-top: 27px;
+.checkbox1{
+    padding-top: 18px;
+    padding-left: 20px;
 }
 
-.main-btn{
-    background: rgba(50, 138, 188, 1);
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
-    color: #FFFFFF;
-    border-radius: 7px;
-    width: 192px;
-    height: 40px;
-}
-
-.statistics-wrapper{
-    width: 1176px;
+.checkbox-one{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    padding: 64px 80px;
+    padding-bottom: 8px; 
 }
 
-.users-count{
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 56px;
-    font-family: 'Poppins';
-}
-
-.users-titel{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    font-family: 'Poppins';
-    color: #282938;
-}
-
-.source-count{
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 56px;
-    font-family: 'Poppins';
-}
-
-.source-titel{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    font-family: 'Poppins';
-    color: rgba(40, 41, 56, 1);
-}
-
-.checks-count{
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 56px;
-    font-family: 'Poppins';
-}
-
-.cheks-titel{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    font-family: 'Poppins';
-    color: #282938;
-}
-
-
-.use-wrapper{
+.checkbox-two{
     display: flex;
-    padding: 140px 50px;
-}
-
-.use-left{
-    margin-left: 120px;
-    font-family: 'Poppins';
-    width: 700px;
-    margin-right: 30px;
-}
-
-.use-left-titel{
-    font-family: 'Montserrat  ';
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 64px;
-    padding-bottom: 16px;
-}
-
-.use-left-subtitel{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    color: rgba(40, 41, 56, 1);
-    padding-bottom: 16px;
-}
-
-.use-left-button{
-    text-align: center;
-    padding-top: 20px;
-}
-
-.use-left-btn img{
-    margin-left: 20px;
-}
-
-.use-left-btn{
-    display: flex;
+    flex-direction: row;
     align-items: center;
-    vertical-align: center;
-    color: rgba(50, 138, 188, 1);
+    padding-bottom: 8px; 
+    padding-right: 20px;
+}
+
+input[type="checkbox"] {
+    background-color: #fff;
+    width: 18px;
+    height: 18px;
+  }
+
+label{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
-    border-radius: 7px;
-}
-
-
-
-.card1-image{
-    padding-bottom: 16px;
-}
-
-.card1-titel{
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 48px;
-    color: #282938;
-}
-
-.card1-subtitel{
-    font-family: 'Poppins';
-    font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
-    color: #282938;
+    line-height: 144%;
+    padding-left: 9px;
 }
 
-.card1{
-    padding-right: 25px;
-    padding-bottom: 48px;
-}
-
-.user-right-cards{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.rates-wrapper{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-}
-
-.rates-titel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 64px;
-}
-
-
-.rates-subscriptions{
-    width: 1024px;
-    height: 328px;
-    padding-top:  100px;
+.order{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 1147px;
+    height: 60px;
+    margin-top: 30px;
 }
 
-.basic{
-    width: 376px;
-    height: 328px;
+.order-left{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: 
-    rgba(229, 229, 229, 1);
 }
-.basic-titel-wrap{
+
+.order-num{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.order-date{
+    font-family: 'Montserrat';  
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding-left: 114px;
+}
+
+.order-price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    align-items: center;
+}
+
+.payment-titel{
+    font-family: 'Montserrat';  
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+.checkbox-three{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
+    width: 333px;
+    height: 80px;
 }
 
-.basic-titel{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 56px;
-    color: #282938;
-    padding-left:15px ;
+.card-img{
+    margin-right: 10px;
+    margin-top: 15px;
 }
 
-.basic-price{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 36px;
-    color: #282938;
-
+.label-img{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 54px;
+    padding-bottom: 20px;
+}
+.label-img img{
+    padding-right:  5px;
 }
 
-.basic-subtitel{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: rgba(40, 41, 56, 1);
+.defis{
+    padding-right: 5px;
 }
 
-.basic-button{
+.payment{
+    display: flex;
+    justify-content: flex-end;
+    width: 1147px;
+}
+
+.label-img2{
+    display: flex;
+    padding-left: 54px;
+}
+
+.label-img2 img{
+    padding-right:  5px;
+}
+
+.label-name{
+    padding-left: 18px;
+}
+
+.visa-img{
+    padding-left: 25px;
+}
+
+.label-string{
+    padding-top: 15px;
+}
+
+.last-buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 1147px;
+}
+
+.note-button{
     text-align: center;
-    width: 192px;
-    padding-top: 50px;
+    padding-top: 120px;
 }
 
-.basic-btn{
-    background: rgba(50, 138, 188, 1);
+.note-btn{
+    background: #CCCCCC;
     font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
     color: #FFFFFF;
     border-radius: 7px;
-    width: 192px;
-    height: 40px;
+    width: 200px;
+    height: 64px;
+}
+
+.request-button{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.request-btn{
+    background: rgba(50, 138, 188, 1);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    width: 400px;
+    height: 64px;
 }
 
 .footer-wrapper{
@@ -350,7 +283,6 @@ button{
     padding-left: 182px;
     width: 1000px;
     height: 200px;
-    
 }
 
 .footer-titels{
@@ -429,6 +361,7 @@ button{
 }
 
 .cnt-nav{
+    
     color: black;
     transition: color 0.2s linear;
 }
